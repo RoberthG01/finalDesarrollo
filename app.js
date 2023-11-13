@@ -10,7 +10,7 @@ app.set("view engine", "hbs");
 hbs.registerPartials(__dirname+("/views/partials"))
 
 // Middleware para servir archivos estáticos (CSS, imágenes, etc.)
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // Rutas
 app.get('/', (req, res) => {
