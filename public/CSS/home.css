@@ -1,0 +1,50 @@
+/* Estilos para la página de inicio */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+}
+
+p {
+  color: #555;
+  font-size: 1.2em;
+}
+
+#featured-work {
+  text-align: center;
+  margin: 50px;
+}
+
+h2 {
+  color: #333;
+  font-size: 2em;
+}
+
+.project {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.project h3 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+.project a {
+  color: #007bff;
+  text-decoration: none;
+}
