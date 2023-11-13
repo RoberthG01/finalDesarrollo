@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const hbs = require("hbs");
@@ -18,11 +19,11 @@ app.get('/', (req, res) => {
 })
 
 app.get('/pastor_aleman', (req, res) => {
-  res.render('pastor_aleman');
+  res.render('pastor_aleman', { backLink: '/'});
 })
 
 app.get('/chihuahua', (req, res) => {
-  res.render('chihuahua');
+  res.render('chihuahua', { backLink: '/'});
 })
 
 // Iniciar el servidor
