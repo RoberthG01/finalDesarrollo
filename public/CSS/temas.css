@@ -1,4 +1,6 @@
 /* Estilos para la página de Chihuahua */
+
+/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -6,31 +8,28 @@ body {
   padding: 0;
 }
 
+/* Estilos para la sección de descripción */
 #description {
   text-align: center;
   margin: 50px;
 }
 
-h3 {
+#description h3 {
   color: #333;
   font-size: 2em;
 }
 
-p {
+#description p {
   color: #555;
   font-size: 1.2em;
 }
 
-#diagramas {
-  text-align: center;
-  margin: 50px;
-}
-
-h4 {
+#description h4 {
   color: #333;
   font-size: 1.8em;
 }
 
+/* Estilos para elementos específicos */
 iframe {
   width: 100%;
   max-width: 800px;

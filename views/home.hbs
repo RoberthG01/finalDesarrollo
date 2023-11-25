@@ -4,38 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Perros Domésticos</title>
-    <link rel="stylesheet" href="/public/CSS/normalize.css"/>
+    <title>Intro Desarrollo Web</title>
     <link rel="stylesheet" href="/public/CSS/home.css"/>
+    <link rel="stylesheet" href="/public/CSS/normalize.css"/>
 </head>
 <body>
     {{>header}}
     <main>
-        <section id="about">
-            <h1>Perros Domésticos</h1>
+        <section id="server">
+            <h1>¿Qué es un Servidor Web?</h1>
             <p>
-                El término “perro doméstico” se refiere a cualquiera de los cientos de razas de perros que hay
-                en el mundo hoy en día. Si bien estos animales varían drásticamente en cuanto a su apariencia,
-                todos los perros, desde el chihuahua hasta el gran danés, son miembros de la misma especie, Canis
-                familiaris. Esto separa a los perros domésticos de los caninos salvajes, como coyotes, zorros y lobos.
+                Un servidor web es un programa o sistema que almacena, gestiona y distribuye contenido web,
+                como páginas, archivos, imágenes, videos, entre otros, a través de internet. Procesa las
+                solicitudes de los usuarios 'a través de navegadores' y les envía la información solicitada,
+                permitiendo así el acceso a sitios web y recursos en línea.
             </p>
+            <img src="/public/IMG/webserver.png">
         </section>
-        <section>
-            <img src="/public/IMG/chihuahaypastor.png" alt="Chihuahua y Pastor Aleman">
+        <hr>
+        <section id="html">
+            <h1>¿Qué es HTML?</h1>
+            <p>    
+                HTML "HyperText Markup Language" es un lenguaje de marcado utilizado para crear la estructura y el contenido
+                básico de páginas web. Se compone de una serie de elementos que permiten definir y organizar el contenido de
+                una página, como encabezados, párrafos, imágenes, enlaces, listas, entre otros. Es la base sobre la cual se
+                construyen las páginas web y se utiliza junto con otros lenguajes como CSS y JavaScript para dar estilo y
+                funcionalidad a los sitios web.
+            </p>
+            <img src="/public/IMG/html.png">
         </section>
-        <section id="featured-work">
-            <h2>Razas de perros</h2>
-            <div class="project">
+        <hr>
+        <section id="server">
+            <h1>¿Qué es CSS?</h1>
+            <p>
+                CSS "Cascading Style Sheets" es un lenguaje utilizado para dar estilo y presentación a páginas
+                web escritas en HTML. Permite definir cómo se ven y se presentan los elementos HTML en un sitio
+                web, controlando aspectos como el diseño, los colores, las fuentes, el espaciado, el tamaño y la
+                disposición de los elementos en la página. CSS separa la estructura y el contenido de una página
+                web de su diseño visual, lo que facilita la creación de sitios con apariencia atractiva y coherente.
+            </p>
+            <img src="/public/IMG/css.jpeg">
+        </section>
+
+        <section id="temas">
+            <h2>Temas de Desarrollo Web</h2>
+            <div class="htmlcss">
                 <h3>
-                    Pastor Alemán
+                    HTML y CSS
                 </h3>
-                <a href="/pastor_aleman">Pastor Alemán</a>
+                <a href="/html_css">HTML y CSS</a>
             </div>
-            <div class="project">
+            <div class="js">
                 <h3>
-                    Chihuaha
+                    JavaScript y Node JS
                 </h3>
-                <a href="/chihuahua">Chihuaha</a>
+                <a href="/js_node">JavaScript y Node</a>
             </div>
         </section>
     </main>

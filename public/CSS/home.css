@@ -6,45 +6,87 @@ body {
   padding: 0;
 }
 
-#about {
+/* Estilos para la sección del servidor web */
+#server {
   text-align: center;
   margin: 50px;
 }
 
-h1 {
+#server h1 {
   color: #333;
   font-size: 2.5em;
 }
 
-p {
+#server p {
   color: #555;
   font-size: 1.2em;
 }
 
-#featured-work {
+/* Estilos para las imágenes */
+#server img,
+#html img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Estilos para la sección HTML */
+#html {
   text-align: center;
   margin: 50px;
 }
 
-h2 {
+#html h1 {
+  color: #333;
+  font-size: 2.5em;
+}
+
+#html p {
+  color: #555;
+  font-size: 1.2em;
+}
+
+/* Estilos para la sección de CSS */
+#css {
+  text-align: center;
+  margin: 50px;
+}
+
+#css h1 {
+  color: #333;
+  font-size: 2.5em;
+}
+
+#css p {
+  color: #555;
+  font-size: 1.2em;
+}
+
+/* Estilos para la sección de temas */
+#temas {
+  text-align: center;
+  margin: 50px;
+}
+
+#temas h2 {
   color: #333;
   font-size: 2em;
 }
 
-.project {
-  margin: 20px;
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+.htmlcss,
+.js {
+  margin-bottom: 20px;
 }
 
-.project h3 {
-  color: #333;
+.htmlcss h3,
+.js h3 {
   font-size: 1.5em;
+  color: #333;
 }
 
-.project a {
+.htmlcss a,
+.js a {
   color: #007bff;
   text-decoration: none;
 }

@@ -18,12 +18,12 @@ app.get('/', (req, res) => {
   res.render('home');
 })
 
-app.get('/pastor_aleman', (req, res) => {
-  res.render('pastor_aleman', { backLink: '/'});
+app.get('/html_css', (req, res) => {
+  res.render('html_css', { backLink: '/'});
 })
 
-app.get('/chihuahua', (req, res) => {
-  res.render('chihuahua', { backLink: '/'});
+app.get('/js_node', (req, res) => {
+  res.render('js_node', { backLink: '/'});
 })
 
 // Iniciar el servidor

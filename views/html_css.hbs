@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML y CSS</title>
+        <link rel="stylesheet" href="/public/CSS/temas.css"/>
+        <link rel="stylesheet" href="/public/CSS/normalize.css">
+    </head>
+    <body>
+        {{>header}}
+
+        <a href="{{backLink}}">
+            <input type="submit" name="Regresar" id="" value="Regresar">
+        </a>
+        <main>
+            <section id="description">
+                <h3>HTML y CSS</h3>
+                <h4>
+                    Etiquetas de HTML
+                </h4>
+                <p>
+                    Acá podemos observar 6 etiquetas diferentes,
+                    las cuáles todas son con etiquetas de entrada
+                    y de cierre, las de cierre se reconocen por el
+                    uso de "/" antes del nombre de la etiqueta que
+                    se encuentra dentro de los signos mayor y menor
+                    que.
+                </p>
+                <img src="/public/IMG/seis_etiquetas.png">
+                <p>
+                    A continuación se muestran 3 etiquetas, la de
+                    meta no incluye etiqueta de cierre y tenemos
+                    también, "strong" y "b".
+                </p>
+                <img src="/public/IMG/dos_etiquetas.png">
+                <h4>
+                    Flex_Box
+                </h4>
+                <p>
+                    Flexbox es un método de diseño de página
+                    unidimensional para compaginar elementos
+                    en filas o columnas. Los elementos de
+                    contenido se ensanchan para rellenar el
+                    espacio adicional y se encogen para caber
+                    en espacios más pequeños.
+                </p>
+                <img src="/public/IMG/flexbox_uno.png">
+                <img src="/public/IMG/flexbox_dos.png">
+            </section>
+        </main>
+        {{>footer}}
+    </body>
+</html>
